@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body {
+  overflow-x: hidden;
+  width: 100%;
+} */
+h1 span {
+  display: block;
+  line-height: 4rem;
+}
+h2 span {
+  display: block;
+  text-align: center;
+}
+.all-container {
+  margin: 0 7%;
+}
+ul li {
+  color: #555;
+}
+.all-hero {
+  background-image: url(../public/asset/product_hero_img.webp);
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+}
+.circl-1 {
+  width: 13rem;
+  height: 13rem;
+  border-radius: 50%;
+}
+.search{
+  border: 1px solid #ccc;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  background-color: #F5F5F5;
+  border-radius: 20px;
+}
+.search input{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 0 10px;
+}
+
+.main-hero{
+ background-image: url(../public/asset/hero-1.jfif);
+ height: 80vh;
+ background-repeat: no-repeat;
+ background-position: center;
+}
+
+@media(max-width:600px){
+  .main-hero{
+    background-image: url(../public/asset/hero-2.jfif);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    width: 100%;
+   }
+}
+/* .inner{
+  overflow: hidden;
+}
+.inner Image{
+  transition: all 1.5s ease;
+}
+.inner:hover Image{
+  transform: scale(1.5);
+} */
